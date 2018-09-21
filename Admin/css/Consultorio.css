@@ -1,0 +1,117 @@
+body{
+	background-color: #E6EE9C;
+	margin: 0;
+	padding: 0;
+	font-family: Helvetica;
+
+}
+#header{
+	display: flex;
+	
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	top: 0;
+	z-index: 10001;
+background:#52BE80;
+	color: white;
+	height: 80px;
+	
+	width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+	position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+	
+}
+#header > h1{
+	color: #050000;
+		margin-left: 42%;
+		font-size:20px;
+}
+#header > img{
+	margin: 6px;
+	width: 60px;
+	height: 60px;
+	border: 3px solid red;
+	border-radius: 50%;
+		margin-left: 3%;
+
+}
+#header> .nav {
+
+	list-style: none;
+		margin-left: 21%;
+		margin-top: 5px;
+
+}
+#header > .nav > li > a{
+	color: #F00F03;
+	text-decoration: none;
+margin-left: 52%;
+
+}
+
+#sidebar > .nav {
+	display: inline-block;
+	list-style: none;
+}
+#sidebar > .nav li{
+	margin-bottom: 10px;
+	border-radius: 3px;
+	cursor: pointer;
+	display: inline-block;
+	padding: 5px;
+	padding-left: 7px;
+	padding-right: 7px;
+	background-color: #666;
+	transition: 1s;
+	-webkit-transition: 1s;
+	-moz-transition: 1s;
+	-o-transition: 1s;
+}
+#sidebar > .nav li:hover{
+	background-color: #999;
+}
+#sidebar > .nav > li > a{
+	color: #FFF;
+	text-decoration: none;
+}
+#footer{
+	z-index: 1000;
+	position: fixed;
+	width: 60%;
+	margin-left: 20%;
+	vertical-align: center;
+	height: 50px;
+	bottom: 0;
+	background-color: #666;
+}
+#sidebar{
+	background-color:#0AAFD8;
+	position: fixed;
+	left: 0;
+	width: 10%;
+	height: 100%;
+	margin-top: 0px;
+}
+#content{
+	display: block;
+	
+	background-color: #E6EE9C;
+	min-height: 80%;
+	
+	margin-top: 80px;
+	margin-left: 10%;
+	width: 87.5%;
+	padding: 20px;
+	margin-bottom: 100px;
+}
+#content > h1{
+	
+		margin-left: 35%;
+}
+#content > a{
+	color: #FA370D;
+		margin-left:45%;
+		font-size: 200%;
+}
